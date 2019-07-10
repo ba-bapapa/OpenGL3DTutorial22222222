@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TItleScene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainGameScene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StatusScene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameOverScene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GLFWEW.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Texture.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shader.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sprite.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Font.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BufferObjectcpp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Mesh.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Terrain.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\json11\json11.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Scene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TitleScene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainGameScene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\StatusScene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameOverScene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GamePad.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GLFWEW.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BufferObject.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Texture.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Geometry.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Shader.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sprite.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Font.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Mesh.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Terrain.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\json11\json11.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Res\Sprite.vert">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\Sprite.frag">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\StaticMesh.vert">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\StaticMesh.frag">
+      <Filter>Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\TitleBg.tga">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\font_0.tga">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\font_1.tga">
+      <Filter>Res</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
